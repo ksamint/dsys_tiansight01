@@ -2,6 +2,14 @@
 
 Versions follow the published brand guide. The system version is in `brand/VERSION`.
 
+## v0.7 · 2026-10-02 · Company intro v3 and lifecycle map
+
+- `deliverables/company-intro-v3/`: 47-page intro deck (slides, browser viewer, PDF, generator); positioning line on the cover; small print moved to speaker notes.
+- `deliverables/lifecycle-map/`: 餐饮经营全周期图谱 with flow-map, single-store Gantt and 3D views; data in `decisions.json`.
+- `assets/intro/`: deck photos, partner logos, portraits, WeChat QR.
+- `docs/claude-design-system/`: Claude Design System snapshot and `SYNC.md`.
+- Waterfall label rounding; Matrix2x2 muted-label contrast.
+
 ## v0.7 · 2026-09-10 · Connected product distribution
 
 - Deterministic, namespaced product foundation with per-asset hashes, reusable application patterns, safe DOM runtime and chart theme access.

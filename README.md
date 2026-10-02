@@ -35,6 +35,8 @@ paraphrase it.
 | 官网 Marketing site | Single long-scroll site: hero → 报告样张 → 从概念到连锁 (四阶段) → 餐饮第二大脑 → 伙伴背书 → 联系; 伙伴与创始团队 page | `ui_kits/website/` |
 | 报告样张 Report sample | The deliverable itself: 决策维度 / 分析维度 / 趋势与归因 / 方法论地图 pages, plus the five insight matrices (渗透率矩阵, 商圈供需洞察, 复购分层四象限, 利润敏感性矩阵, 价格带断层洞察) | `ui_kits/report/` |
 | 销售提案 Sales deck | 16:9 deck pitching 侍天 to a restaurant owner — 14 slides: 主张 → 服务内容 (四个阶段) → 服务模式 → 方法论 (第二大脑 · 样张 · 图谱) → 价值 → 案例 → 伙伴 → 创始团队 → 联系 | `slides/`, `templates/sales-deck/` |
+| 企业介绍 v3 Company intro | 47-page 1920×1080 intro deck from `guidelines/company-intro-v3.md`: browser viewer, PDF, generator | `deliverables/company-intro-v3/` |
+| 全周期图谱 Lifecycle map | 餐饮经营全周期图谱 — flow map, single-store Gantt and 3D views over 60 decisions | `deliverables/lifecycle-map/` |
 
 ### Product framework (memorize this — it drives most layouts)
 
@@ -602,6 +604,13 @@ ui_kits/
   website/                  官网 long-scroll site (index.html) + 伙伴与创始团队 (partners.html)
   report/                   经营诊断报告 sample pages, incl. the d3 趋势与归因 page
   samples/                  four real 推演 / 长卷 dashboards, verbatim, as reference screens
+deliverables/
+  company-intro-v3/         企业介绍 v3 — 47 slides, viewer, PDF, deck.json; regenerate with
+                            `cd deliverables/company-intro-v3/gen && python3 gen.py`
+                            (view: `python3 -m http.server` at the repo root, open /deliverables/company-intro-v3/)
+  lifecycle-map/            餐饮经营全周期图谱 — index.html + decisions.json (d3/three.js from cdnjs)
+assets/intro/               deck photos, partner logos, portraits, WeChat QR for the intro
+docs/claude-design-system/  Claude Design System snapshot + SYNC.md (set up / sync another Claude account)
 thumbnail.html              project tile
 SKILL.md                    Agent-Skills entry point
 github.md                   source-repo association + screen map, for upstream sync

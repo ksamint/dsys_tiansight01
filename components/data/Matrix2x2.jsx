@@ -2,7 +2,7 @@ import React from "react";
 
 const TONES = {
   bronze: "var(--bronze-500)", growth: "var(--growth-500)", loss: "var(--loss-500)",
-  caution: "var(--caution-500)", datum: "var(--datum-500)", muted: "var(--parchment-400)"
+  caution: "var(--caution-500)", datum: "var(--datum-500)", muted: "var(--ink-muted)"
 };
 
 export function Matrix2x2({ xAxis, yAxis, quadrants = [], points = [], height = 300 }) {
