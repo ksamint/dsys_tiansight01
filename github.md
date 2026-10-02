@@ -13,6 +13,7 @@ date: 2026-10-02T00:00:00Z
 - Claude Design System snapshot in `docs/claude-design-system/` (brand book with new §7 slide layout rules and §8 brand QA checklist, wordmark tokens, Wordmark card, real team on ExpertCard, Cover with seal and two-tone wordmark). Import and sync steps in `docs/claude-design-system/SYNC.md`.
 - Fixes: `components/charts/Waterfall.jsx` rounds step labels and running totals (no more 480.59999999999997); `components/data/Matrix2x2.jsx` muted quadrant labels use `--ink-muted` (4.9:1) instead of `--parchment-400` (1.6:1).
 - `guidelines/company-intro-v3.md` added as the current intro copy.
+- Imported into a second Claude account from `docs/claude-design-system/` per `SYNC.md`: Design System artifact 「侍天 TIANSIGHT」 (https://claude.ai/artifact/3HezHydMsfPFPqnbSbxv7K, version 3) with the brand book, tokens, component cards, 127 font subsets, the four preview libraries (react 18.3.1, react-dom 18.3.1, d3 7.9.0, d3-sankey 0.12.3) and the 65 assets re-uploaded; preview `/_blob/` references rewritten to the new ids. The repo snapshot keeps the original account's ids.
 
 ## Sync history
 
