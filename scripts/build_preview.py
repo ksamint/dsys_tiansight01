@@ -35,6 +35,9 @@ def build():
             rel = path.relative_to(ROOT)
             if 'templates' in rel.parts or 'export' in rel.parts:
                 continue
+            # Claude Design System snapshot: preview cards render only inside that artifact.
+            if rel.parts[:2] == ('docs', 'claude-design-system'):
+                continue
             if path.suffix.lower() in {'.html', '.css', '.js', '.json', '.csv', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.woff2', '.md'} or (path.suffix == '.txt' and path.name.startswith('OFL-') and 'fonts' in rel.parts):
                 paths.append(path)
     for path in paths:
