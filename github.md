@@ -3,6 +3,19 @@ branch: main
 
 ## Last sync
 
+date: 2026-10-02T00:00:00Z
+
+### Updated in this project
+
+- Company intro v3 rebuilt as a 47-page deck: `deliverables/company-intro-v3/` (slides, viewer, PDF, generator). Cover now states the positioning 「AI + 专家的餐饮经营参谋」; explanatory small print moved into speaker notes.
+- 餐饮经营全周期图谱: `deliverables/lifecycle-map/` — one page, three views (expansion-path flow map, single-store swimlane Gantt, 3D), five lenses, 60 decisions in `decisions.json`.
+- Intro assets checked in under `assets/intro/` (33 deck photos, 8 partner logos, 4 portraits, WeChat QR).
+- Claude Design System snapshot in `docs/claude-design-system/` (brand book with new §7 slide layout rules and §8 brand QA checklist, wordmark tokens, Wordmark card, real team on ExpertCard, Cover with seal and two-tone wordmark). Import and sync steps in `docs/claude-design-system/SYNC.md`.
+- Fixes: `components/charts/Waterfall.jsx` rounds step labels and running totals (no more 480.59999999999997); `components/data/Matrix2x2.jsx` muted quadrant labels use `--ink-muted` (4.9:1) instead of `--parchment-400` (1.6:1).
+- `guidelines/company-intro-v3.md` added as the current intro copy.
+
+## Sync history
+
 date: 2026-09-20T00:00:00Z
 
 ### Updated in this project
